@@ -50,7 +50,6 @@ p {
 .text-move {
     display: flex;
     flex-direction: column;
-    justify-content: center;
     transform: translateY(-600px);
     border-radius: 50%;
     padding: 100px;
@@ -65,7 +64,6 @@ p {
 }
 
 .ordered {
-    background-color: aliceblue;
     display: inline-block;
     text-align: center;
     transform: translateY(-700px);
@@ -91,4 +89,9 @@ ol {
 ul {
     display: block;
     text-align: center;
+} 
+footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
 }
