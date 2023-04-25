@@ -1,0 +1,97 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css');
+
+body {
+    background-color: green;
+}
+
+nav {
+    display: block;
+    margin-left: 46%;
+}
+
+button {
+    border: none;
+    border-radius: 50%;
+    padding: 30px;
+    width: 14%;
+}
+
+h1 {
+    text-align: center;
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+
+button {
+    border-style: ridge;
+    border-color: black;
+    border-width: 4px;
+}
+
+button:hover {
+    opacity: 0.7;
+}
+
+img {
+    width: 20%;
+}
+
+#two {
+    width: 20%;
+    transform: scaleX(-1);
+    float: right;
+}
+
+p {
+    display: inline-block;
+    text-align: center;
+}
+
+.text-move {
+    display: flex;
+    flex-direction: column;
+    transform: translateY(-600px);
+    border-radius: 50%;
+    padding: 100px;
+    margin-left: 60px;
+    margin-right: 60px;
+
+}
+
+.Logo {
+    font-size: x-large;
+    text-shadow: 2px 2px red;
+}
+
+.ordered {
+    display: inline-block;
+    text-align: center;
+    transform: translateY(-700px);
+    border-radius: 50%;
+    margin-left: 100px;
+    width: 90%;
+    font-size: 20px ;
+}
+ol {
+    display: inline-block;
+    text-align: left;
+    list-style-type: upper-roman;
+}
+#xtra {
+    padding-left: 120px;
+    text-decoration: underline;
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+#dd {
+    padding-right: 90px;
+}
+ul {
+    display: block;
+    text-align: center;
+} 
+footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+}
